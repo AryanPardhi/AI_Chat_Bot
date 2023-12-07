@@ -1,0 +1,157 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "nothing"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "admission_open",
+        "patterns": [
+          "admission opening date",
+          "admission inquiry",
+          "when will admission open!"
+        ],
+        "responses": [
+          "admission will open from 20th april",
+          "admission opens from 20th april"
+        ]
+      },
+      {
+        "tag": "Bba_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for BBA course?",
+          "What is the cost of this BBA coursee?",
+          "How much do you charge for BBA course?",
+          "What is the price for BBA course?",
+          "What is the fee for BBA course?",
+          "How much will I have to pay for BBA course?",
+          "What is the rate for BBA course?",
+          "What is the tariff for BBA course?",
+          "What is the expense for BBA course?"
+          
+        ],
+        "responses": [
+          "It cost 60,000 rs for a year",
+          "It cost 60,000/year"
+        ]
+      },
+      {
+        "tag": "MBA_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for MBA course?",
+          "What is the cost of this MBA coursee?",
+          "How much do you charge for MBA course?",
+          "What is the price for MBA course?",
+          "What is the fee for MBA course?",
+          "How much will I have to pay for MBA course?",
+          "What is the rate for MBA course?",
+          "What is the tariff for MBA course?",
+          "What is the expense for MBA course?"
+          
+        ],
+        "responses": [
+          "It cost 80,000 rs for a year",
+          "It cost 80,000/year"
+        ]
+      },
+      {
+        "tag": "college_rating",
+        "patterns": [
+          "What is the ranking of this college in India?",
+          "How does this college rank in India?",
+          "What is the reputation of this college in India?",
+          "What is the standing of this college in India?",
+          "What is the position of this college in India's rankings?",
+          "How well-regarded is this college in India?",
+          "What is the score of this college in India's ranking system?",
+          "How does this college compare to others in India?",
+          "What is the grade of this college in India's rating system?",
+          "How is this college evaluated in India's ranking scheme?"
+          
+        ],
+        "responses": [
+          "IPS Academy, Indore Overall ranking by India Today is 55 out of 178 colleges in India in 2021 and it was 51 out of 120 colleges in India in 2020."
+        ]
+      },
+      {
+        "tag": "hostel_facilities",
+        "patterns": [
+          "Is there accommodation available on campus?",
+          "Are there dormitory facilities provided by the college?",
+          "Is there a hostel for students to stay in?",
+          "Does the college offer housing for students?",
+          "What are the lodging options available for students?",
+          "Is there a residential facility provided by the college?",
+          "Are there living arrangements provided for students?",
+          "Is there a place for students to stay on campus?",
+          "Are there boarding facilities available for students?",
+          "What are the housing provisions for students at the college?",
+          "hostel available for students ?"
+          
+        ],
+        "responses": [
+          "Yes , It's available,but unfortunately only for girls",
+          "It's only available for girls"
+        ]
+      },
+      {
+        "tag": "btech_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for btech course?",
+          "What is the cost of this btech coursee?",
+          "How much do you charge for btech course?",
+          "What is the price for btech course?",
+          "What is the fee for btech course?",
+          "How much will I have to pay for btech course?",
+          "What is the rate for btech course?",
+          "What is the tariff for btech course?",
+          "What is the expense for btech course?"
+          
+        ],
+        "responses": [
+          "It cost 1 lakh for a year",
+          "It cost 1 lakh/year"
+        ]
+      }
+    ]
+  }
