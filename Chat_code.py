@@ -11,7 +11,9 @@ with open('trained_dic.json','r') as f :
     intents = json.load(f)
   
 FILE = "data.pth"
-data =torch.load(FILE)
+data = torch.load(FILE, map_location=torch.device('cpu'))
+
+# data =torch.load(FILE)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
@@ -24,7 +26,7 @@ model = Neuralnet(input_size,hidden_size,output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "HQ"
+bot_name = "Vigor"
 
 def get_response(msg):
     sentence = tokenize(msg)
